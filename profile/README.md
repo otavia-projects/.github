@@ -3,14 +3,15 @@ Hi! Welcome to otavia projects! This is the source code of otavia ecosystem!
 ## Introduction
 
 [Otavia](https://otavia-projects.github.io/otavia/home.html) is an IO and Actor programming model power by Scala 3, it
-provides a toolkit to make writing high-performance concurrent programs more easily.
+provides a toolkit to make writing high-performance concurrent programs more easily. Quick learn `otavia` via
+[Quick Start](https://otavia-projects.github.io/otavia/docs/quick_start.html).
 
 ## Ecosystem status
 
 | artifactName            | status | scope         | repository       | what's this                                                                                                                                                                       |
 |-------------------------|--------|---------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | otavia-buffer           | WIP    | buffer        | otavia           | A zero-deps buffer implementation for replace `java.nio.ByteBuffer` forked from Netty.                                                                                            |
-| otavia-serde            | WIP    | serde         | otavia           | A generic serialization and deserialization framework based on `buffer`.                                                                                                          |
+| otavia-serde            | WIP    | serde         | otavia           | A generic serialization and deserialization framework based on `otavia-buffer`.                                                                                                   |
 | otavia-runtime          | WIP    | runtime       | otavia           | Core Actor model, IO model(channel), slf4a, reactor model, IOC, message model, and thread model.                                                                                  |
 | otavia-codec            | WIP    | codec         | otavia           | Some generic ChannelHandler.                                                                                                                                                      |
 | otavia-handler          | WIP    | codec         | otavia           | Some special ChannelHandler, eg, SSL, io traffic control, timeout.                                                                                                                |
